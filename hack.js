@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { Client } = require("blooketjs");
 const client = new Client({ token: process.env.token })
 
